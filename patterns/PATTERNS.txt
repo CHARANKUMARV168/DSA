@@ -1,0 +1,37 @@
+CONCEPT 01 : PATTERNS :
+
+outcomes :
+* understanding of loops 
+* data flow through nested loops
+* working of conditional statements
+
+Important python features to remember :
+* range always iterates till 1 less than desired range so always add +1 to the ending value in range function 
+
+module 1 : firstpat 
+* shows that all patterns are derived from square 
+* data flow through nested loops :
+01. 1st loop : i loop : responsible for changing row b/w start to stop 
+02. 2nd loop : j loop : responsible for priniting the data column wise 
+* value of i changes row wise 
+* value of j changes column wise 
+
+module 2 : Cuttingpat 
+> cut the parts of square to get a desired pattern out of it 
+> pattern based on incresing/decreasing property along the row :
+
+01 . Incresing no of stars row wise i.e, top to down :
+* intrusion i+/- smtg = to get no of stars in each row 
+* increasing even pattern : {i*2} = [2,4,6,8,10]
+* increasing odd pattern : {i + {i - 1}} = [1,3,5,7,9]
+ 
+02 . descreasing no of stars from top to down :
+* {n-i}+/- smtg = to get no of stars in each row 
+* decreasing odd no pattern : {n-i}+{n-i}+1 = [9,7,5,3,1]
+* descreasing even no pattern : {n-i}+{n-i}+2 = [10,8,6,4,2]
+
+module 3 : Spacepat and module 4 : equiTripat 
+> the concept space involved in a pattern " " along with * 
+> the space also plays a vital role in pattern treat it according its appearance in the pattern same as the star whether it is reducing or increasing
+
+module 5 : 
