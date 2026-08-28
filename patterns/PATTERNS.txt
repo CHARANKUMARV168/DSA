@@ -34,4 +34,6 @@ module 3 : Spacepat and module 4 : equiTripat
 > the concept space involved in a pattern " " along with * 
 > the space also plays a vital role in pattern treat it according its appearance in the pattern same as the star whether it is reducing or increasing
 
-module 5 : 
+module 5 : understPat
+> this module describe the iteration flow of i and j value through their loops using nos 
+> the usage of no allows in evaluation of values in pattern after each iteration 
