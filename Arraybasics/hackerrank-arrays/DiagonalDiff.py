@@ -22,3 +22,17 @@ for i in range(0 , len(a),1):
 print(norm)
 print(cross)
 print(abs(norm-cross))
+
+
+'''
+method 2 :
+n_sum = 0 
+c_sum = 0
+n = len(a)
+for i in range(len(a)):
+    n_sum = n_sum + a[i][i]
+    c_sum = c_sum + a[i][n-i-1]
+    print()
+print(n_sum)
+print(c_sum)
+'''
