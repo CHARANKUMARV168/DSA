@@ -17,6 +17,22 @@ def subarraySum( nums, k):
         return count
 
         
+# optimization using hash map and preffix sum array 
+def subarraysumhashprefix(nums , k):
+    sum = 0 
+    hashmap = {}
+    hashmap[0] = 0
+    i = 0 
+    for num in nums :
+        sum = sum + num
+        if  (sum - k) in hashmap.values():
+            count = count +1 
+        
+        hashmap[i] = sum 
+        i= i+1 
+    return count
+
+
 
 nums = [1,1,1]
 k = 2

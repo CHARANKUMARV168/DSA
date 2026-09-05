@@ -50,3 +50,11 @@ for i in h.keys():
 
 # i acess the keys 
 # h[i] to access the values
+
+'''
+hashmap cocept when designing a hash map always follow :
+if (cond):
+    the element is already present in the hashmap 
+else :
+    logic for new insertion
+'''
