@@ -39,12 +39,14 @@ for i in range ( 1 , n+1 , 1):
     for j in range(1 , ((n-i)+1)+1 ,1):
         print("*",end='')
     print()
+
+# pattern 4 and 5 are my adjustments from 1 nd 2 just add space to the star which makes right angle trinagle to another triangle 
 '''
-pattern 3 :  * 
-            * * 
-           * * * 
-          * * * * 
-         * * * * * 
+pattern 3 :     * 
+               * * 
+              * * * 
+             * * * * 
+            * * * * * 
 
     
 '''

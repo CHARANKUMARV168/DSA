@@ -15,6 +15,7 @@ for i in range (1, n + 1 ,1) :         # changing row is the resposibility of i
         print("*",end = '')
     print(" ")
 '''
+here i is changing row wise 
 pattern 2 : 1 1 1 1 1
             2 2 2 2 2 
             3 3 3 3 3  
@@ -27,6 +28,7 @@ for i in range (1, n + 1 ,1) :         # changing row is the resposibility of i
     print(" ")
 
 '''
+j changes column wise in a row 
 pattern 3 : 1 2 3 4 5
             1 2 3 4 5 
             1 2 3 4 5 
